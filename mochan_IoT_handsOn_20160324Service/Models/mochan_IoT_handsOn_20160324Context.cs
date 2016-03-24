@@ -30,6 +30,8 @@ namespace mochan_IoT_handsOn_20160324Service.Models
                 new AttributeToColumnAnnotationConvention<TableColumnAttribute, string>(
                     "ServiceTableColumn", (property, attributes) => attributes.Single().ColumnType.ToString()));
         }
+
+        public System.Data.Entity.DbSet<mochan_IoT_handsOn_20160324Service.DataObjects.DeviceEntry> DeviceEntries { get; set; }
     }
 
 }
