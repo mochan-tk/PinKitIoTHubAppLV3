@@ -7,7 +7,7 @@ using Microsoft.Azure.Mobile.Server;
 
 namespace mochan_IoT_handsOn_20160324Service.DataObjects
 {
-    class DeviceEntry : EntityData
+    public class DeviceEntry : EntityData
     {
         public string DeviceId { get; set; }
         public bool ServiceAvailable { get; set; }
