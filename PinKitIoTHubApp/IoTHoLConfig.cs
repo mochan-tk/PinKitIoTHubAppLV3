@@ -5,9 +5,9 @@ namespace PinKitIoTHubApp
 {
     public static class IoTHoLConfig
     {
-        public static string DeviceEntryEndPoint = "[MobileAppName].azurewebsites.net";
+        public static string DeviceEntryEndPoint = "mochan-IoT-handsOn-20160324.azurewebsites.net";
         // IoT Hub Configuration
-        public static string IoTHubEndpoint = "[IoTHubName].azure-devices.net";
+        public static string IoTHubEndpoint = "mochanIoTHoL20160324.azure-devices.net";
 
         // Location 
         public static double Latitude = 35.62661;
