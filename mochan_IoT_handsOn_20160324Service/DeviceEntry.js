@@ -1,4 +1,5 @@
 ﻿$(function () {
+
     var mobileAppName = "mochan-IoT-handsOn-20160324";
     $.ajax({
         url: 'http://' + mobileAppName + '.azurewebsites.net/tables/DeviceEntry',
